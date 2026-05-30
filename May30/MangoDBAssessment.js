@@ -156,9 +156,9 @@ db.restaurants.find({
 })
 
 
-db.restaurants.find({$or:[{city:"chennai"},{cuisine:"Indian"}]})//9
+db.restaurants.find({$or:[{city:"chennai"},{cuisine:"Indian"}]})
 
-db.restaurants.find({ delivery_available: false })//10
+db.restaurants.find({ delivery_available: false })
 
 db.restaurants.find({
   city: { $in: ["Hyderabad", "Delhi", "Mumbai"] }
