@@ -1,3 +1,5 @@
+USE hospital_capstone_db;
+
 INSERT INTO departments VALUES
 (1,'Cardiology'),
 (2,'Neurology'),
