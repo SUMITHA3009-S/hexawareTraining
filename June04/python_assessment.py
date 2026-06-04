@@ -1,7 +1,6 @@
 salaries = [45000, 55000, 65000, 75000, 85000]
 
-for salary in salaries:
-    print(salary)
+print(salaries)
 
 print("Maximum Salary:", max(salaries))
 print("Minimum Salary:", min(salaries))
