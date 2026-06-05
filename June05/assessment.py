@@ -126,9 +126,46 @@ with open("employee_report.txt","w") as r:
     r.write(f"Lowest Salary = {min(salaries)}\n")
     r.write(f"Average Salary = {sum(salaries)/len(salaries)}\n")
     r.write(f"Total Salary = {sum(salaries)}\n")
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 # JSON ASSESSMENT
+# average salary
+total_salary=0
+for employee in employees:
+    total_salary += employee["salary"]
+average_salary=total_salary/len(employees)
+# display data engineering employees
+for employee in employees:
+    if employee["department"] == "Data Engineering":
+        print(employee)
+# employee earning more than 80000
+for employee in employees:
+    if employee["salary"]>80000:
+        print(employee)
+# update salary
+for employee in employees:
+    if employee["employee_id"] == 102:
+        employee["salary"]=100000
 
+# add new employee
+new_employee = {
+    "employee_id": 106,
+    "name": "Arjun Rao",
+    "department": "DevOps",
+    "salary": 85000,
+    "city": "Bangalore"
+}
+
+employees.append(new_employee)
+
+# delete the employee
+for employee in employees:
+    if employee["employee_id"] == 104:
+        employees.remove(employee)
+        break
+for employee in employees:
+    print(employee)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 # CSV ASSESSMENT
 # highest_salary
 highest_salary=0
