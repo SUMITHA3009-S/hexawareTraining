@@ -1,1 +1,20 @@
+What is Big data?
+Big Data refers to datasets that are so massive, fast-moving, or complex that traditional single-computer systems (like Excel or a standard SQL database) cannot store or process them. 
 
+What is PySpark?
+PySpark is the Python library for Apache Spark, an engine that solves the Big Data problem by distributing the work across multiple computers.
+
+Spark basic architecture?
+The Cluster Manager manages the execution of various jobs in the cluster.
+Spark Driver works in conjunction with the Cluster Manager to control the execution of various other jobs. 
+The cluster Manager does the task of allocating resources for the job. 
+Once the job has been broken down into smaller jobs, which are then distributed to worker nodes, SparkDriver will control the execution.
+Many worker nodes can be used to process an RDD created in the SparkContext, and the results can also be cached.
+The Spark Context receives task information from the Cluster Manager and enqueues it on worker nodes.
+The executor is in charge of carrying out these duties. 
+The lifespan of executors is the same as that of the Spark Application.
+We can increase the number of workers if we want to improve the performance of the system. In this way, we can divide jobs into more coherent parts.
+
+What is Client Mode and Cluster Mode?
+In client mode, the driver program runs on the same machine from which the Spark application is launched. This means the machine initiating the application also controls its execution. It's like running a software program directly on your personal computer.
+In cluster mode, the driver program runs on a separate machine from the machine where we are launching the Spark application. A cluster manager takes care of the job execution, distributing tasks across multiple worker nodes.
