@@ -1,0 +1,92 @@
+1. What is Cloud Computing?
+Cloud Computing is the delivery of computing services such as servers, storage, databases, networking, and software over the internet instead of using your own physical computers and servers.
+Example:
+Instead of storing files on your computer, you use cloud storage like Microsoft OneDrive or Google Google Drive. Your data is stored on remote servers and can be accessed from anywhere.
+Benefits:
+•	Access data from anywhere 
+•	Lower infrastructure cost 
+•	Easy scalability 
+•	Automatic updates and maintenance 
+•	Better backup and recovery 
+
+2. What are the Advantages of Microsoft Azure?
+Microsoft Azure is Microsoft's cloud computing platform that provides various cloud services.
+Advantages:
+1. Scalability
+Resources can be increased or decreased based on demand.
+Example: An online shopping website can add more servers during festival sales.
+2. Cost Effective
+Pay only for the resources you use.
+Example: A startup can rent cloud servers instead of buying expensive hardware.
+3. High Security
+Azure provides encryption, firewalls, and identity management.
+Example: Banks can securely store customer data on Azure.
+4. Global Availability
+Azure has data centers across many countries.
+Example: Users from different locations can access applications with low latency.
+5. Backup and Disaster Recovery
+Data can be backed up automatically and recovered if needed.
+Example: If a company server fails, data can be restored from Azure backup.
+
+3. What is Hosting in Azure?
+Hosting means deploying and running an application, website, or service on Azure's cloud infrastructure so users can access it through the internet.
+Example:
+Suppose you create a college project website.
+Instead of running it on your personal computer:
+•	Upload the website to Azure. 
+•	Azure hosts the website on its servers. 
+•	Users can access it using a web address (URL). 
+Azure Hosting Services:
+•	Azure App Service (Web Applications) 
+•	Azure Virtual Machines 
+•	Azure Kubernetes Service (AKS) 
+Real-Life Example:
+A food delivery app hosts its website and backend services on Azure so customers can order food online anytime.
+
+4. What are IaaS, PaaS, and SaaS?
+These are different cloud service models.
+A) IaaS (Infrastructure as a Service)
+The cloud provider offers virtual machines, storage, and networking. The user manages the operating system and applications.
+Example:
+Using Azure Virtual Machines.
+Provider manages:
+•	Hardware 
+•	Networking 
+•	Storage 
+User manages:
+•	Operating System 
+•	Applications 
+•	Data 
+Real-Life Example:
+Renting an empty house and arranging everything inside yourself.
+
+B) PaaS (Platform as a Service)
+The cloud provider manages hardware, operating system, and runtime environment. Users only develop and deploy applications.
+Example:
+Azure App Service.
+Provider manages:
+•	Hardware 
+•	Operating System 
+•	Runtime 
+User manages:
+•	Application code 
+•	Data 
+Real-Life Example:
+Renting a fully furnished office and only focusing on your work.
+
+C) SaaS (Software as a Service)
+Ready-to-use software is provided over the internet.
+Examples:
+•	Microsoft 365 
+•	Google Workspace 
+•	Salesforce 
+Provider manages everything.
+User only uses the software.
+Real-Life Example:
+Watching movies on a streaming service without worrying about servers or maintenance.
+
+Easy Memory Tip:
+•	IaaS = Rent Infrastructure 
+•	PaaS = Rent Platform 
+•	SaaS = Use Software
+
