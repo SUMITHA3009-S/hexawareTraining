@@ -1,0 +1,33 @@
+use expense_monitoring;
+
+db.receipts.insertMany([
+{
+user_id:1,
+receipt_id:"R001",
+store:"Super Market",
+amount:850,
+date:"2026-06-01",
+items:["Rice","Milk","Vegetables"]
+},
+{
+user_id:2,
+receipt_id:"R002",
+store:"Fashion Mall",
+amount:2500,
+date:"2026-06-05",
+items:["Shirt","Jeans"]
+},
+{
+user_id:3,
+receipt_id:"R003",
+store:"Fuel Station",
+amount:1000,
+date:"2026-06-08",
+items:["Petrol"]
+}
+]);
+
+-- Create Indexes
+db.receipts.createIndex({user_id:1});
+
+db.receipts.createIndex({receipt_id:1});
