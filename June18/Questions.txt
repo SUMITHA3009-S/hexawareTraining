@@ -1,0 +1,32 @@
+1.	overview of data governance and unity catalog
+Data Governance is an organizational framework of policies, processes, roles, and standards that ensures data is secure, accurate, compliant, 
+and trustworthy throughout its lifecycle. 
+Databricks Unity Catalog is the technical tool: a centralized, unified governance layer for your data 
+and AI assets, allowing organizations to manage permissions, tracking, and discoverability in one place.
+
+2.	overview of 3 level namespace and creating unity catalog object
+Every data asset managed within Databricks Unity Catalog is scoped hierarchically under a regional metadata container called a Metastore.
+Within that metastore, assets follow this three-tiered structure:Metastore (Regional Metadata Root)
+   └── 1. Catalog (Environment / Department)
+         └── 2. Schema (Project / Use Case)
+               └── 3. Object (Data / AI Asset)
+Level 1: Catalog
+The top-tier organizational and isolation boundary.Commonly used to isolate environments (e.g., prod, staging, dev) or major business units 
+(e.g., finance, marketing).
+Level 2: Schema (Database)
+The middle layer that logically groups assets inside a specific catalog.Often structured by source system, specific project scopes, or layers
+of a medallion architecture (e.g., bronze, silver, gold).
+Level 3: Object
+The actual securable asset containing data or operational logic.Objects can be structured Tables (managed or external), Views, unstructured file
+directories (Volumes), Functions, or machine learning Models.
+
+3.	create unity catalog metastore and enable a databricks workspace with unity catalog
+1. Cloud SetupCreate storage: Deploy an Azure ADLS Gen2 container or AWS S3 bucket.
+Grant access: Create a managed identity/IAM role with read/write access to it.
+2. Create MetastoreOpen console: Log into the Databricks Account Console as an admin.
+Add metastore: Go to Catalog > Create Metastore.
+Fill details: Enter a name, matching region, storage path, and identity credentials.
+Save: Click Create.
+3. Enable WorkspaceSelect: Check your workspace from the popup list.
+Assign: Click Assign > Enable.
+Verify: Open your workspace and confirm the Catalog tab is active.
