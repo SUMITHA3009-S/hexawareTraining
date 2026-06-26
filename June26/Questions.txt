@@ -1,0 +1,35 @@
+What is DevOps?
+DevOps is a set of practices, cultural philosophies, and tools that unifies software Development (Dev) and IT Operations (Ops). 
+It aims to shorten the development lifecycle and deliver high-quality software continuously by automating processes like building, testing, and deployment.
+DevOps helps organizations evolve and improve products at a faster velocity than traditional software development methods.
+
+Advantages of DevOps:
+Faster delivery: Ships software updates and features much quicker.
+Better collaboration: Breaks down silos between developers and operations.
+Higher reliability: Reduces errors through automated testing and monitoring.
+Easier scalability: Manages complex infrastructure efficiently using automated code.
+Quicker recovery: Fixes bugs and system failures drastically faster.
+
+What is agile methodology and what is scrum?
+Agile is a flexible philosophy for managing projects through continuous, iterative improvement, 
+while Scrum is a specific structured framework used to implement Agile.
+AGILE: 
+Agile is a project management approach centered on adaptability, collaboration, and delivering value to users in small, 
+frequent increments rather than all at once.
+SCRUME: 
+Scrum is the most popular framework under the Agile umbrella. It organizes work into fixed, short timeframes and establishes 
+strict team roles and daily meetings.
+
+What are the important meetings in agile?
+Sprint Planning: Held at the start to plan what to build and how.
+Daily Standup: A 15-minute daily sync to track progress and flag roadblocks.
+Sprint Review: Held at the end to demo working software to stakeholders.
+Sprint Retrospective: Held at the end for the team to improve their workflow.
+Backlog Refinement: Ongoing meeting to clarify and prepare future tasks.
+
+what are the advantages of agile?
+High flexibility: Adapts quickly to changes and shifting market demands.
+Faster value: Delivers working software to users much sooner.
+Better quality: Catches errors early through continuous testing and reviews.
+Higher satisfaction: Places customer feedback at the center of development.
+Reduced risk: Minimizes project failure by developing in small increments.
