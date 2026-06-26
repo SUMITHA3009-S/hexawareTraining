@@ -1,1 +1,20 @@
+What is Apache Airflow?
+Apache Airflow is an open-source platform used to programmatically author, schedule, and monitor workflows. It is primarily utilized by data engineers and developers 
+to build and orchestrate complex data pipelines (ETL/ELT), ensuring that data processing tasks execute in the correct order, at the right time, and automatically 
+retry if they fail.
 
+Why do we need Airflow?
+ETL / ELT Pipelines: Moving raw data from various sources (like marketing platforms or databases), transforming it into clean data, and loading it into a data warehouse (like Snowflake or BigQuery).
+Machine Learning Operations (MLOps): Automating the routine steps required to train, evaluate, and deploy machine learning models on a set schedule.
+Automated Reporting: Running code to generate data analytics or business dashboards and distributing the reports to stakeholders on a set cadence.
+Infrastructure Management: Triggering serverless functions or provisioning cloud resources (often alongside tools like Terraform).
+
+Key Components of Airflow;
+DAG (Directed Acyclic Graph): The blueprint defining the collection of tasks and their execution order.
+Operator: The template or building block used to define a single task (e.g., PythonOperator).
+Task: The actual instance of an Operator defined inside a specific DAG.Task Instance: A specific run of a task for a specific point in time.
+
+Why choose Airflow?
+Dynamic Python Automation: You can use standard Python code to build loops, conditions, and complex workflows dynamically.
+Massive Integration Ecosystem: It has thousands of pre-built plug-ins to connect seamlessly with AWS, GCP, Azure, and Snowflake.
+Industry-Standard Reliability: An enormous global community ensures enterprise-grade security, constant updates, and endless troubleshooting resources.
